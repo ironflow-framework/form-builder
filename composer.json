@@ -18,19 +18,18 @@
   "require": {
     "php": "^8.2",
     "illuminate/support": "^11.0|^12.0",
-    "halo/ui": "^2.0"
+    "ironflow/halo-ui": "^2.0"
   },
   "require-dev": {
-        "phpunit/phpunit": "^11.0",
-        "orchestra/testbench": "^10.0",
-        "mockery/mockery": "^1.6",
-        "laravel/pint": "^1.13",
-        "phpstan/phpstan": "^1.10",
-        "pestphp/pest": "^3.0",
-        "pestphp/pest-plugin-laravel": "^3.0",
-        "pestphp/pest-plugin-faker": "^3.0"
-
-    },
+    "phpunit/phpunit": "^11.0",
+    "orchestra/testbench": "^10.0",
+    "mockery/mockery": "^1.6",
+    "laravel/pint": "^1.13",
+    "phpstan/phpstan": "^1.10",
+    "pestphp/pest": "^3.0",
+    "pestphp/pest-plugin-laravel": "^3.0",
+    "pestphp/pest-plugin-faker": "^3.0"
+  },
   "autoload": {
     "psr-4": {
       "IronFlow\\FormBuilder\\": "src/"
